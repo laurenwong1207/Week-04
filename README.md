@@ -12,7 +12,7 @@ My Movies List is a web application that allows users to manage their list of to
 ## Process
 - **Backend**: Node.js, Express
 - **Database**: Movies are stored in a JSON file (`movies.json`).
-- **Frontend**: HTML, CSS, JavaScript (No frameworks used, just vanilla JavaScript)
+- **Frontend**: HTML, CSS, JavaScript 
 
 ## API Reference
 Endpoints
