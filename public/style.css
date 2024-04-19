@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 0;
+    margin-top: 20px;
+    width: 80%; /* Container width, adjust as needed */
+    list-style-type: none;
+}
+
+.movie-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px 10px 10px 0; /* Adjust margin to space out cards */
+    padding: 20px;
+    text-align: center;
+    flex: 0 0 30%; /* Do not grow or shrink, occupy exactly 30% */
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
